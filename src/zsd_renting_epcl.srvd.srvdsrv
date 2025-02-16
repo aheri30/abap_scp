@@ -1,0 +1,5 @@
+@EndUserText.label: 'Renting'
+define service Zsd_renting_epcl {
+  expose Z_I_RENTING_EPCL as Cars;
+  expose z_b_det_costumer as Costumers;
+}
